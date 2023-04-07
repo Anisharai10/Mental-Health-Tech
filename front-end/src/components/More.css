@@ -1,0 +1,140 @@
+/* Body styles */
+body {
+    background: #eaeaea;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f1f1f;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    color: #1f1f1f;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #3f51b5;
+  }
+  
+  /* Main styles */
+  main {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 120px auto 50px;
+    padding: 50px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .page-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3f51b5;
+  }
+  
+  /* Chatbot styles */
+  .chatbot-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .chatbot-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3f51b5;
+    margin: 0;
+  }
+  
+  .chatbot-header button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .chatbot-header button:hover {
+    background-color: #2c3e50;
+  }
+  
+  .chatbot-body {
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .user-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .user-message p {
+    font-size: 16px
+  }
